@@ -1,0 +1,18 @@
+html,body{
+    height: 100%;
+
+}
+#root{
+    height: 100%;
+}
+#root .map{
+    height: 100%;
+}    
+#container{height:100%;}    
+.map .city-sec{
+    line-height: 45px;
+}
+.map .am-icon.am-icon-left.am-icon-md{
+    padding: 10px;
+    padding-left: 20px;
+}

@@ -1,12 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+/**
+ * 调整目录结构
+ * src 结构下的静态资源放在assets文件夹中
+ * components：放公共的组件，多个页面都需要的组件
+ * pages:放页面组件，
+ * utils：工具性的函数和方法
+ *
+ *
+ *
+ *
+ * 配置基础路由\
+ * 安装 yarn add react-router-dom
+ * 在App.js中配置路由规则
+ * 在pages目录中创建页面组件
+ * 首页Home/index.js
+ *
+ * 组件库pc端
+ * ant design
+ * 组件库手机端
+ * ant design mobile
+ */
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+// 引入样式字体图标的
+// import First from './pages/index/index'
+import 'antd-mobile/dist/antd-mobile.css'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById('root'))

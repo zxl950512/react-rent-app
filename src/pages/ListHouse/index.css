@@ -1,0 +1,304 @@
+/* dingbu */
+.listhouse{
+    background-color: #f5f5f5;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.listhouse .listhouse_header  .am-flexbox.am-flexbox-align-center{
+    height: 34px;
+    line-height: 34px;
+    margin-left: 10px;
+    width: 90%;
+    position: absolute;
+    margin-right: 10px
+}
+
+.listhouse .listhouse_header {
+    height: 34px;
+    position: relative;
+    line-height: 34px;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+   
+}
+.listhouse .listhouse_header  .am-flexbox.am-flexbox-align-center.search-box {
+
+    background-color: transparent;
+ 
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 95%;
+    margin-right: 10px
+}
+.listhouse .listhouse_header   .am-flexbox.am-flexbox-align-center{
+   margin: 0;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.listhouse .listhouse_header  .am-flexbox.am-flexbox-align-center.search-box .search-left {
+      flex: 1;
+      height: 34px;
+      padding: 5px 5px 5px 8px;
+      margin: 0 10px;
+      border-radius: 3px;
+      background-color: #fff;
+}
+.listhouse .listhouse_header  .am-flexbox.am-flexbox-align-center.search-left .location #citysChange {
+          font-size: 14px;
+          color:#000;
+          padding-left:5px;
+        }
+
+.listhouse .listhouse_header  .am-flexbox.am-flexbox-align-center.search-left .location .icon-arrow {
+          margin-left: 2px;
+          font-size: 12px;
+          color: #7f7f80;
+        }
+
+ .listhouse .listhouse_header  .am-flexbox.am-flexbox-align-center.search-left .search-form {
+        margin-left: 12px;
+        border-left: 1px solid #e5e5e5;
+        }
+ .listhouse .listhouse_header   .am-flexbox.am-flexbox-align-center.search-box .search-left .search-form .icon-seach {
+          vertical-align: middle;
+          padding: 0 2px 0 12px;
+          color: #9c9fa1;
+          font-size: 13px;
+        }
+
+.listhouse .listhouse_header .search-box .search-left .search-form #place {
+          padding-left: 4px;
+          font-size: 12px;
+          color: #aaa;
+        }
+    
+
+
+.listhouse .listhouse_header  .am-flexbox.am-flexbox-align-center.search-box .icon-map {
+      font-size: 25px;
+      color: #aaa;
+      position: absolute;
+      right: 0px;
+      top: 3px;
+      z-index: 99;
+    }
+
+
+    .listhouse .listhouse_select {
+        position: relative;
+        height: 40px;
+        background-color: #fff;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .listhouse .listhouse_select  .am-flexbox.am-flexbox-align-center{
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        position: absolute;
+        background-color: #fff;
+    }
+
+    .listhouse .listhouse_select  .am-flexbox.am-flexbox-align-center  .am-flexbox-item{
+        text-align: center;
+    }
+
+    
+    .listhouse .listhouse_select  .am-flexbox.am-flexbox-align-center  .am-flexbox-item i{
+        font-size: 14px;
+        color: #aaa;
+    }
+
+    .listhouse .listhouse_select  .am-flexbox.am-flexbox-align-center  .am-flexbox-item span{
+        font-size: 16px;
+    }
+
+    .listhouse .listhouse_select  .am-flexbox.am-flexbox-align-center  .am-flexbox-item span.active{
+        color: #21B97a
+    }
+    .listhouse .listhouse_select  .am-flexbox.am-flexbox-align-center  .am-flexbox-item i.active{
+        color: #21B97a
+    }
+
+
+
+
+    .listhouse .citys-area {
+        position: relative;
+        height: 40px;
+        background-color: #fff;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    .listhouse .citys-area  .am-flexbox.am-flexbox-align-center{
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        position: absolute;
+        z-index:15;
+        background-color: #fff;
+    }
+
+    .listhouse .citys-area  .am-flexbox.am-flexbox-align-center  .am-flexbox-item{
+        text-align: center;
+    }
+
+    
+    .listhouse .citys-area  .am-flexbox.am-flexbox-align-center  .am-flexbox-item i{
+        font-size: 14px;
+        color: #aaa;
+    }
+
+    .listhouse .citys-area  .am-flexbox.am-flexbox-align-center  .am-flexbox-item span{
+        font-size: 16px;
+        color:#000;
+    }
+
+    .listhouse .citys-area  .am-flexbox.am-flexbox-align-center  .am-flexbox-item span.active{
+        color: #21B97a
+    }
+    .listhouse .citys-area  .am-flexbox.am-flexbox-align-center  .am-flexbox-item i.active{
+        color: #21B97a
+    }
+
+    .listhouse  .citys-area{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 350px;
+        z-index:9;
+        
+        background-color: #fff;
+    }
+
+    .listhouse .mask{
+      background-color: rgba(0,0,0,0.4);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      
+    }
+
+    .listhouse .citys-area .am-button.cancel{
+        width: 33.33%;
+        height: 50px;
+        color: #21b97a;
+       left: 0;
+        border-radius: none !important;
+        position: absolute;
+        bottom: 0;
+
+    }
+    .listhouse .citys-area .am-button.defa{
+        height: 50px;
+        width: 66.66%;
+        background-color: #21b97a;
+        color: #fff;
+        border-radius: none !important;
+       right: 0;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+    /* 新闻
+    */
+
+    
+
+    .listhouse #news{
+        padding: 10px;
+        background-color: #fff;
+    }
+    .listhouse #news .filter_house{
+    list-style: none;
+    padding: 0 10px;
+    }
+    .listhouse #news .filter_house li{
+        height: 120px;
+        box-sizing: border-box;
+        display: flex;
+        padding: 18px 0 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .listhouse #news .filter_house li .imgs{
+        width: 106px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .listhouse #news .filter_house li .imgs img{
+        width: 106px;
+        height: 80px;
+    }
+    .listhouse #news .filter_house li .right{
+        width: 120px;
+        flex: 1;
+        position: relative;
+        height: 90px;
+        font-size: 15px;
+        padding-left: 12px;
+    }
+    .listhouse #news .filter_house li .right h3{
+        font-size: 15px;
+    }
+    .listhouse #news .filter_house li .right .three{
+        color: #999;
+        font-size: 12px;
+        padding:5px 0;
+    }
+    .listhouse #news .filter_house li .right .transition{
+        color: #999;
+        font-size: 12px;
+        padding:5px 0;
+    }
+    .listhouse #news .filter_house li .right .transition span:nth-child(1){
+        color: #39becd;
+        background-color: #e1f5f8;
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+    .listhouse #news .filter_house li .right .transition span:nth-child(2){
+        color: #3fc28c;
+        background-color: #e1f5f8;
+        padding: 4px 5px;
+        font-size: 12px;
+    }
+    .listhouse #news .filter_house li .right .price{
+        color: #999;
+        padding:5px 0;
+    }
+    .listhouse #news .filter_house li .right .price span:nth-child(1){
+        font-size: 16px;
+        color:red;
+        font-weight: 700;
+    }
+    .listhouse #news .filter_house li .right .price span:nth-child(2){
+        color:red;
+        font-size: 12px;
+    }
+    .listhouse #news .filter_house li .right p{
+        color: #aaa;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .listhouse #news .filter_house li .right p span:nth-child(1){
+       float: left;
+    }
+
+    .listhouse #news .filter_house li .right p span:nth-child(2){
+        float: right;
+     }
