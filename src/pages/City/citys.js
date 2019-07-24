@@ -99,11 +99,8 @@ class Citys extends React.Component {
   changePage = (v, index) => {
     let { cityListIndex, cityListData } = this.state
     const letter = cityListIndex[index]
-
-    console.log(letter)
-
     this.setCityCurrent(v)
-    // this.props.history.go(-1)
+    this.props.history.go(-1)
   }
 
   rowHeightComputed = ({ index }) => {
